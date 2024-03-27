@@ -6,14 +6,14 @@ site to now how much a seller earns
 [Projeto de portfólio pessoal](#projeto-de-portf%C3%B3lio-pessoal)
 [Descrição](#descri%C3%A7%C3%A3o)
 [Introdução](#introdu%C3%A7%C3%A3o)
-[Funcionalidades](https://github.com/bryancardosoo/formcadas#funcionalidades)
+[Funcionalidades](#descri%C3%A7%C3%A3o)
 [Tecnologias utilizadas](#tecnologias-utilizadas)
 [Fontes consultadas](#fontes-consultadas)
 [Autores](#autores)  
 
 # Projeto de portfólio pessoal  
 
-![Capa do projeto](assets/img/tela.png)
+![Capa do projeto](Inicio.png)
 
 Project created to know how much a seller earns 
 
@@ -31,12 +31,11 @@ The functionalities are: Calculate the earns in the weekly to know how much they
 * ``HTML 5``
 * ``CSS 3``
 * ``PHP``
-* 
 
 
 ## Fontes consultadas
 * [Guard](https://dev.to/clintwinter/use-guard-clauses-for-cleaner-code-3ap7) - Use Guard Clauses for Cleaner Code
-* [Bootstrap](https://getbootstrap.com/docs/5.0/forms/layout/#gutters-)
+* [GitHub](https://gist.github.com/LexFalconis/b90427160e20b8117bdff26bf163f76b) - Used for inspiration
 
 ## Autores
 

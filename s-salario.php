@@ -51,4 +51,22 @@
           $salary = 1927.02;
        
  
-         
+          foreach ($weeks as $week) {
+              if ($week < 20000) {
+                  $monthBonus = false;
+              } else {
+                  $salary += 200;
+                  $salary += ($week - 20000) * 0.05;
+              }
+          }
+ 
+          if ($monthBonus)
+              $salary += ($month - 80000) * 0.1;
+ 
+          echo "O vendedor $name receberá R$ $salary ao final do mês.";
+      ?>
+    </div>
+  </section>
+</body>
+</html>
+ 

@@ -13,7 +13,7 @@ site to now how much a seller earns
 
 # Projeto de portfólio pessoal  
 
-![Capa do projeto](Inicio.png)
+![Capa do projeto](img/Inicio.png)
 
 Project created to know how much a seller earns 
 

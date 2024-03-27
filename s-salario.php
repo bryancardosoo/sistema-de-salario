@@ -45,4 +45,10 @@
           }
  
        
-        
+          $weeks = [ $week1, $week2, $week3, $week4 ];
+          $month = $week1 + $week2 + $week3 + $week4;
+          $monthBonus = true;
+          $salary = 1927.02;
+       
+ 
+         

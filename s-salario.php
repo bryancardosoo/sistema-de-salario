@@ -25,4 +25,24 @@
       </form>
     </div>
     <div id="message">
-      
+      <?php
+ 
+          $name  = filter_input(INPUT_POST, "name");
+          $week1 = filter_input(INPUT_POST, "week1");
+          $week2 = filter_input(INPUT_POST, "week2");
+          $week3 = filter_input(INPUT_POST, "week3");
+          $week4 = filter_input(INPUT_POST, "week4");
+ 
+ 
+          if (!($name && $week1 && $week2 && $week3 && $week4)) {
+              echo "Favor informar todos os dados.";
+              return;
+          }
+       
+          if ($week1 < 0 || $week2 < 0 || $week3 < 0 || $week4 < 0) {
+              echo "Favor informar valores positivos.";
+              return;
+          }
+ 
+       
+        

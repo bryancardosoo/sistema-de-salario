@@ -15,11 +15,11 @@
         <label for="name">Nome</label><br />
         <input type="text" name="name" /><br />
         <br />
-        <input type="number" step="0.01" name="week1" placeholder="Valor semana 1" />
-        <input type="number" step="0.01" name="week2" placeholder="Valor semana 2" />
+        <input type="number" step="0.01" name="week1" placeholder="Quantia semana 1" />
+        <input type="number" step="0.01" name="week2" placeholder="Quantia semana 2" />
         <br />
-        <input type="number" step="0.01" name="week3" placeholder="Valor semana 3" />
-        <input type="number" step="0.01" name="week4" placeholder="Valor semana 4" /><br />
+        <input type="number" step="0.01" name="week3" placeholder="Quantia semana 3" />
+        <input type="number" step="0.01" name="week4" placeholder="Quantia semana 4" /><br />
         <br />
         <input type="submit" name="submit" value="Validar" id="submit" />
       </form>
